@@ -1,6 +1,6 @@
-﻿using System.Windows.
+﻿using System;
 using System.Drawing;
-using System.Drawing.Imaging;
+using System.Windows.Forms;
 
 namespace BitmapTutorialForms
 {
@@ -10,7 +10,6 @@ namespace BitmapTutorialForms
 
         private void Button1_Click(System.Object sender, System.EventArgs e)
         {
-
             try
             {
                 // Retrieve the image.
